@@ -48,7 +48,7 @@ public class Main {
     public static double sumSerias() {
         double n = 2.0;
         double sum = 0.0;
-        double memberSerias = 0.0;
+        double memberSerias;
 
         do {
             memberSerias = 1.0 / (n * n + n - 2.0);
